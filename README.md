@@ -47,8 +47,11 @@ THEN I am taken to the corresponding section of the README
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Authors, Acknowledgement, & Resources 🤝
+## Acknowledgement, & Resources 🤝
 
 ```md
 Teaching Crew at UniSA Coding Bootcamp 
+Write a Readable ReadME -https://www.youtube.com/watch?v=2dAK42B7qtw
+github.com/ddbeck/readme-checklist
+
 ```

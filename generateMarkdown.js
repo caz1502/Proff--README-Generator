@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license) {
       console.log("renderLicenseBadge")
-      return `![License](https://img.shields.io/badge/license-${license}-green)`
+      return `![License](https://img.shields.io/badge/license-${license}-informational)`
   }
   console.log("no license")
   return ""
@@ -11,8 +11,13 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  console.log("renderLicenseLink")
+function renderLicenseLink(license) { 
+  if (license) {
+      console.log("renderLicenseLink")
+      return `[${license}] https://opensource.org/licenses/${license}/`  
+  } 
+  console.log("no license")
+  return ""
 }
 
 // TODO: Create a function that returns the license section of README
@@ -23,43 +28,71 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const licenseBadge = renderLicenseBadge(data.license)
+  const licenseBadge = renderLicenseBadge(data.license);
+  const licenseLink = renderLicenseLink(data.license);
   return `# ${data.projectname}
   ${licenseBadge}
   
+  
 ### Deployed Project Website 
+
 ${data.website}
 
+
 ### Table of Contents 
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Questions](#questions)
-- [Collaborators](#collaborators)
+- [Contributing](#collaborators)
 - [Credit](#credentials)
 - [License](#license)
 
+
 ### Description 
+
 ${data.description}
 
+
 ### Installation 
+
 ${data.installation}
 
+
 ### Usage 
+
 ${data.usage}
 
+
+### Tests
+
+${data.tests}
+
+
 ### Questions 
-Checkout my Github account https://github.com/${data.github}  or contact me via ${data.email}
-if you have any questions.
+
+If there are questions, want to do a collaboration or simply want to say  "G'day" - Checkout my Github account https://github.com/${data.github}  or contact me via ${data.email}.
+
 
 ### Collaborators 
+
 ${data.collaborators}
 
+
 ### Credit 
+
 ${data.credit}
 
+
+### Language / Technology
+
+${data.language}
+
+
 ### License 
-Project released under [${data.license} License](LICENSE)`;
+
+This project is released under [${licenseLink}]`;
 }
 
 module.exports = generateMarkdown;

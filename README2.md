@@ -1,36 +1,63 @@
-# fgdfg
-  ![License](https://img.shields.io/badge/license-Apache-green)
+# dsfsdf
+  ![License](https://img.shields.io/badge/license-MIT-informational)
+  
   
 ### Deployed Project Website 
-fgfdg
+
+sdfsdf
+
 
 ### Table of Contents 
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Questions](#questions)
-- [Collaborators](#collaborators)
+- [Contributing](#collaborators)
 - [Credit](#credentials)
 - [License](#license)
 
+
 ### Description 
-fdgdfg
+
+dsfsdf
+
 
 ### Installation 
-dfgdfg
+
+sdfsd
+
 
 ### Usage 
-dfgdfg
+
+sdfsdf
+
+
+### Tests
+
+sdfsd
+
 
 ### Questions 
-Checkout my Github account https://github.com/dfgdfgdf  or contact me via dfgdfgdf
-if you have any questions.
+
+If there are questions, want to do a collaboration or simply want to say  "G'day" - Checkout my Github account https://github.com/sdf  or contact me via sdfsd.
+
 
 ### Collaborators 
-dfgdfg
+
+sdfsdf
+
 
 ### Credit 
-dfgdfg
+
+dfsdf
+
+
+### Language / Technology
+
+JavaScript
+
 
 ### License 
-Project released under [Apache License](LICENSE)
+
+This project is released under [[MIT] https://opensource.org/licenses/MIT/]
