@@ -27,6 +27,9 @@ function renderLicenseSection(license) {
   console.log("renderLicenseSection")
 }
 
+
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
@@ -103,6 +106,10 @@ ${data.credit}
 ### **Language / Technology**  
 
 ${data.language}
+
+${array1}
+
+
 
 ---
 
