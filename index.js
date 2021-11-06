@@ -95,7 +95,7 @@ function promptUser() {
 function init(){
     promptUser()
     .then((answers)=>generateMarkdown(answers))
-    .then((data)=>writeTofile('README2.md',data))
+    .then((data)=>writeTofile('README.md',data))
     .then(() => console.log('You are a ROCKSTAR!!! The README.md has been created'))
     .catch((err) => console.error('Something went wrong, maybe try again',err));
 };

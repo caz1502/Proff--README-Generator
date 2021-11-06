@@ -33,12 +33,19 @@ function generateMarkdown(data) {
   const licenseLink = renderLicenseLink(data.license);
   return `# ${data.projectname}
   ${licenseBadge}
-  
-  
-### Deployed Project Website 
-${data.website}
 
-#### Table of Contents 
+---  
+  
+### Deployed Project Website  
+
+
+**${data.website}**
+
+---
+
+### **Table of Contents**  
+
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -47,32 +54,61 @@ ${data.website}
 - [Credit](#credentials)
 - [License](#license)
 
-#### Description 
+---
+
+### **Description** 
+
 ${data.description}
 
-#### Installation 
+---
+
+### **Installation** 
+
 ${data.installation}
 
-#### Usage 
+---
+
+### **Usage**  
+
 ${data.usage}
 
-#### Tests
+---
+
+### **Tests**  
+
 ${data.tests}
 
-#### Questions 
+---
+
+### **Questions**  
+
 If there are questions, want to do a collaboration or simply want to say  "G'day" - Checkout my Github account https://github.com/${data.github}  or contact me via ${data.email}.
 
-#### Collaborators 
+---
+
+### **Collaborators**  
+
 ${data.collaborators}
 
-#### Credit 
+---
+
+### **Credit**  
+
 ${data.credit}
 
-#### Language / Technology
+---
+
+### **Language / Technology**  
+
 ${data.language}
 
-#### License 
-This project is released under [${data.license}](${licenseLink})`;
+---
+
+### **License**  
+
+This project is released under [${data.license}](${licenseLink})
+
+---`;
 }
 
 module.exports = generateMarkdown;
