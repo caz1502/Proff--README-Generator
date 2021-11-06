@@ -43,7 +43,7 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## README.md Video
-![README.md Video](./README.mp4)
+![README.md Video](https://drive.google.com/file/d/1bQ27fDnD86D6jHjBFS-5DTD6u4ILCAvO/view?usp=sharing)
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
