@@ -1,7 +1,5 @@
 ## Professional-README-Generator
 
-Live Application Link 👀 ** **
-
 ## The Task
 
 ```md
@@ -42,8 +40,10 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## README.md Video
-![README.md Video](https://drive.google.com/file/d/1bQ27fDnD86D6jHjBFS-5DTD6u4ILCAvO/view?usp=sharing)
+## Video
+[Video](https://drive.google.com/file/d/1bQ27fDnD86D6jHjBFS-5DTD6u4ILCAvO/view?usp=sharing)
+
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
