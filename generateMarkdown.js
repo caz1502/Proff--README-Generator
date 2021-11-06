@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license) {
       console.log("renderLicenseBadge")
-      return `![License](https://img.shields.io/static/v1?label=License&message=${license}&color=informational)`
+      return `![License](https://img.shields.io/static/v1?label=License&message=${license}&color=blue)`
   }
   console.log("no license")
   return ""
