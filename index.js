@@ -70,7 +70,7 @@ const questions = [
             type: 'checkbox',
             name: 'language',
             message: 'List out the languages ans technolgies you have used to develop this project.Use the spavebar to select each one.',
-            choices: ['JavaScript', 'Python', 'Java','C#','C++','PHP','R','SQL','VBA','HTML','CSS','Other']
+            choices: ['JavaScript','Python','Java','C#','C++','PHP','R','SQL','VBA','HTML','CSS','Other']
         },  
 
         {

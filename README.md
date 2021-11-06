@@ -1,13 +1,12 @@
-# dfdsf
-
-![License](https://img.shields.io/static/v1?label=License&message=MPL-2.0&color=blue)
+# README Generator
+  ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
 
 ---  
   
 ### Deployed Project Website  
 
 
-**dfsdf**
+**www.google.com**
 
 ---
 
@@ -26,54 +25,54 @@
 
 ### **Description** 
 
-sdfsdf
+This creates a README based on questions
 
 ---
 
 ### **Installation** 
 
-sdfsdf
+VS code is required, to run the application ENTER node index.js from the terminal
 
 ---
 
 ### **Usage**  
 
-sdfds
+This app automates the README file creation, rather than having to build each element individually
 
 ---
 
 ### **Tests**  
 
-dsfsd
+run a test using node index.js
 
 ---
 
 ### **Questions**  
 
-If there are questions, want to do a collaboration or simply want to say  "G'day" - Checkout my Github account https://github.com/sdfsd  or contact me via sdfsd.
+If there are questions, want to do a collaboration or simply want to say  "G'day" - Checkout my Github account https://github.com/caz1502  or contact me via carol.shiers@gmail.com.
 
 ---
 
 ### **Collaborators**  
 
-sdfs
+n/a
 
 ---
 
 ### **Credit**  
 
-sdfs
+Teaching Crew at UniSA Coding Bootcamp ,Write a Readable ReadME -https://www.youtube.com/watch?v=2dAK42B7qtw, github.com/ddbeck/readme-checklist
 
 ---
 
 ### **Language / Technology**  
 
-JavaScript,Python,Java
+JavaScript
 
 ---
 
 ### **License**  
 
-This project is released under [MPL-2.0](https://opensource.org/licenses/MPL-2.0/)
+This project is released under [MIT](https://opensource.org/licenses/MIT/)
 
 ---
