@@ -35,7 +35,7 @@ const questions = [
         {
             type: 'input',
             name: 'installation',
-            message: 'Briefly outline the installtion steps, or what software is required to run this application.',
+            message: 'Briefly outline the installation steps, or what software is required to run this application.',
         },     
         
         {
@@ -69,7 +69,7 @@ const questions = [
         {
             type: 'checkbox',
             name: 'language',
-            message: 'List out the languages ans technolgies you have used to develop this project.Use the spavebar to select each one.',
+            message: 'List out the languages and technologies you have used to develop this project.Use the spavebar to select each one.',
             choices: ['JavaScript','Python','Java','C#','C++','PHP','R','SQL','VBA','HTML','CSS','Other']
         },  
 
