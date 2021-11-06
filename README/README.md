@@ -41,7 +41,7 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Video
-[Video](https://drive.google.com/file/d/1bQ27fDnD86D6jHjBFS-5DTD6u4ILCAvO/view?usp=sharing)
+[Video](https://www.youtube.com/watch?v=Kc4ncdbDnuY)
 
 ## License
 
